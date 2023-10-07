@@ -26,7 +26,7 @@ my_cur = my_cnx.cursor()
 #streamlit.dataframe(my_data_row)
 
 
-stremlit.header("The fruit load list contains:")
+streamlit.header("The fruit load list contains:")
 
 def get_fruit_load_list():
     with my_cur.cursor() as my_cur:
