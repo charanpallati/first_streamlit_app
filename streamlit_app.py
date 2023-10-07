@@ -1,5 +1,6 @@
 import streamlit
 import pandas as pd
+import snowflake.connector
 streamlit.header("Menu")
 
 streamlit.title("Breakfast favorites")
